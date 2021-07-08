@@ -12,7 +12,6 @@ div{
 }
 
 .center-span{
-    
     margin: 0 auto;
 }
 
@@ -40,4 +39,67 @@ form input{
 form input[type="submit"]{
     background-color: #f7c548;
     font-size: 90%;
+}
+
+a {
+    text-decoration: none;
+}    
+
+h6, button {
+    width: 75%;
+    text-align: center;
+}
+
+button{
+    font-size: 90%;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 2px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    margin-bottom: 20px
+}
+
+h6 {
+    color: #767676;
+    border-bottom: 1px solid #767676;
+    line-height: 0.1em;
+}
+
+.other-span {
+    text-align: center;
+    margin: 0 auto;
+}
+
+span {
+    background-color: #fff;
+    color: #767676;
+    padding: 0 8px
+}
+
+footer{
+    border-top: 2px solid #adb1b8;
+    font-size: 85%
+}
+
+#footerelem>div>a>p{
+    display: inline;
+    text-align: center;
+    padding: 10px 5px 5px;
+}
+
+#footerelem>p {
+    font-size: 85%;
+    text-align: center
+}
+
+.forgot-password{
+    font-size: 90%;
+    position: relative;
+    bottom: 0vh;
+    right: -3vw
+}
+
+.need-help{
+    font-size: 90%
 }
